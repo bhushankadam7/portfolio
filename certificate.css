@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    padding: 20px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(206, 176, 58);
+    line-height: 40px; /* Ensure vertical alignment of text */
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-color:chocolate;
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Add some space between the certificates */
+}
+
+.certificate {
+    margin-bottom: 50px;
+    width: 600px; /* Set your desired width */
+    height: 400px; /* Set your desired height */
+    background-size: cover; /* Ensure the background image covers the entire div */
+    background-position: center; /* Center the background image */
+    border: 1px solid #ccc; /* Optional: add a border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for transform and box-shadow */
+}
+
+.certificate:hover {
+    transform: scale(1.2); /* Slightly scale up the image */
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2); /* Increase the shadow */
+}
+
+.certificate-1 {
+    background-image: url('sql_certificate.jpg');
+}
+
+.certificate-2 {
+    background-image: url('data_science_certificate.jpg');
+}
+
+.certificate-3 {
+    background-image: url('web_devlopment_certificate.jpg');
+}
+
+.certificate-4 {
+    background-image: url('aiml_internship_certificate.jpg');
+}
+
+.certificate-5{
+    background-image: url('participate_certificate_1.jpg');
+}
+
+.certificate-6{
+    background-image: url('participate_certificate_2.jpg');
+}
+content {
+    width: 100%;
+    display: flex;
+    background-color:chocolate;
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+    gap: 20px; /* Add some space between the certificates */
+}
+
+.resume-back{
+    font-size: large;
+    height: 30px;
+    width: 200px;
+    border: violet;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.resume-back a{
+    text-decoration: none;
+}

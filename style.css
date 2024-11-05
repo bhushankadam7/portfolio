@@ -1,0 +1,385 @@
+
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(49, 49, 112);
+    padding: 0 20px;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: rgb(30, 30, 85);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.img {
+    height: 200px;
+    width: 150px;
+    background-image: url("my photo.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.namebar {
+    max-width: 600px;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.info {
+    margin: 20px 150px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(153, 182, 182);
+    border-radius: 10px;
+}
+
+/* Additional styling for overall aesthetics */
+/*body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9ecef;
+}
+
+h1{
+    color:rgb(141, 141, 247);
+}
+
+ h2 {
+    color: #333;
+}
+
+b i {
+    display: block;
+    margin-top: 20px;
+}
+
+.footer-top{
+    color: rgb(141, 141, 247);
+    display: flex;
+    justify-content: center;
+    background-color:rgb(49, 49, 112) ;
+}
+
+.contact-us {
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 80px;
+    background-color: rgb(30, 30, 85);
+    text-decoration: none;
+}
+
+.contact-us a{
+    color: rgb(153, 182, 182);
+    text-decoration: none;
+}
+.contact-us a:hover{
+    background-color: rgb(49, 49, 112);
+}
+
+.contact-us h3{
+    color: rgb(153, 182, 182);
+}
+/* Reset margins, paddings, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Background container with fullscreen background image */
+  .background-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Foreground image centered in the container */
+  .foreground-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Centered button positioned below the foreground image */
+  .center-button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Button hover effect */
+  .center-button:hover {
+    background-color: rgb(184, 185, 217);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:darkslategrey;
+    padding: 0 20px;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: rgb(69, 110, 110)
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: lightgray;
+}
+
+.img {
+    height: 200px;
+    width: 150px;
+    background-image: url("my photo.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 150px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 20px rgb(104, 110, 189) ,
+    -10px -10px 20px rgb(209, 85, 69) ;
+    transition: all;
+}
+
+.box{
+    display:flex;
+    justify-content: space-evenly;
+}
+.coder-img{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: end;
+    background-image: url("pngwing.com.png");
+    background-size: cover;
+    position: relative;
+    left: 320px;
+    border-radius: 10px;
+}
+
+.namebar {
+    max-width: 600px;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.content {
+    text-align: center;
+    padding: 30px;
+    background-color:lightgray
+}
+
+.info {
+    margin: 20px 150px ;
+    margin-bottom: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(153, 182, 182);
+    border-radius: 10px;
+}
+
+.skills{
+    height: 700px;
+    width: 100%;
+    padding-right: 300px;
+    padding-left: 200px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.logo1{
+    height: 200px;
+    width: 600px;
+    background-size: cover;
+    margin-top: 50px;
+}
+.logo2{
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.logo3{
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.logo4{
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+/* Additional styling for overall aesthetics */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e9ecef;
+}
+
+h1 {
+    color:white;
+    animation: all;
+}
+h1:hover{
+    color: white;
+    animation: all 3s ease-in 6s 2 move ;
+}
+
+h2 {
+    color: darkslategrey;
+}
+
+b i {
+    color: darkslategrey;
+    display: block;
+    margin-top: 20px;
+}
+
+.footer-top {
+    color: rgb(141, 141, 247);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(49, 49, 112);
+    cursor: pointer;
+}
+.footer-top:hover{
+    background-color: rgb(59, 59, 139);
+}
+
+.contact-us {
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 80px;
+    background-color: rgb(30, 30, 85);
+    text-decoration: none;
+}
+
+.contact-us a {
+    color: rgb(153, 182, 182);
+    text-decoration: none;
+}
+.contact-us a:hover{
+    background-color: rgb(49, 49, 112)
+}
+.contact-us p{
+    color: rgb(153, 182, 182)
+}
+.contact-us h3 {
+    color: rgb(153, 182, 182);
+}
+
+.animated-heading {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
